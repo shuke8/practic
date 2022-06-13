@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.w3-sidebar{
+    background-color: #091336 !important;
+    color: rgba(255, 255, 255, 0.6);
+    width: 240px !important;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .w3-sidebar > a:hover{
+    border-left:3px solid #005FF8;
+    color: #fff !important;
+    background: rgba(216, 228, 251, 0.32) !important;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .w3-sidebar > .active{
+    border-left:3px solid #005FF8 !important ;
+    color: #fff !important;
+    background: rgba(216, 228, 251, 0.32) !important;
   }
-}
+  
+  .bn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 4px;
+  }
+  
+  .bn-medium{
+    width: 200px;
+  }
+  
+  .bn-blue{
+    background-color: #005FF8;
+    color: #fff;
+  }
+  
+  .progress{
+    width: 156px !important;
+      height: 6px !important;
+      border-radius: 12px;
+  }
+  
+  .bg-green{
+    background-color: #28A879 !important;
+  }
+  
+  .text-green{
+    color:#00A775 !important;
+  }
+  
+  .bg-yellow{
+    background-color: #FFD500 !important;
+  }
+  
+  .text-yellow{
+    color:#FFB800 !important;
+  }
+  
+  
+  .bg-red{
+    background-color: #EA1A4F !important;
+  }
+  
+  .text-red{
+    color:#EA1A4F !important;
+  }
+  .bg-light-blue{
+    background-color: #F1F4F9 ;
+  }
